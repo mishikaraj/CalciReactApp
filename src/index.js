@@ -18,13 +18,20 @@ ReactDOM.render(
   //   <App />
   // </React.StrictMode>,
   [
- <h1>Hello World!!</h1>,
+ <h1 className="heading">Hello World!!</h1>,
  <h2>{`my name is ${fname} ${lname}`}</h2>,
-<p> My first app in React</p>,
+ 
 <p>curr date is ={currdate}</p>,
+
+ <div className="img_div">
+
+
+
 <img src={img1}/>,
+
 <img src={img2}/>,
 <img src={img3}/>,
+</div>,
   ],
   
   document.getElementById('root')
