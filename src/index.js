@@ -4,13 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const fname="mishika";
+const lname="raj";
+const currdate=new Date().toLocaleDateString();
+const img1="https://picsum.photos/200/300";
+const img2="https://picsum.photos/250/300";
+const img3="https://picsum.photos/300/300";
+
+
+
 ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
   [
  <h1>Hello World!!</h1>,
-<p> My first app in React</p>
+ <h2>{`my name is ${fname} ${lname}`}</h2>,
+<p> My first app in React</p>,
+<p>curr date is ={currdate}</p>,
+<img src={img1}/>,
+<img src={img2}/>,
+<img src={img3}/>,
   ],
   
   document.getElementById('root')
