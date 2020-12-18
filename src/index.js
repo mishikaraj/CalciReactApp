@@ -8,7 +8,11 @@ ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-  <h1>Hello World!!</h1>,
+  [
+ <h1>Hello World!!</h1>,
+<p> My first app in React</p>
+  ],
+  
   document.getElementById('root')
 );
 
