@@ -26,7 +26,7 @@ code {
   font-weight: bold;
 }
 
-.img_div{
+/* .img_div{
   display: flex;
   justify-content: center;
 }
@@ -35,4 +35,15 @@ code {
   widows: 250px;
   height:300px;
   
+} */
+
+h1{
+  padding: 20px 20px;
+  background-color: #ffe9c5;
+  color: #fa9191;
+  border-radius:20px;
+}
+
+span{
+  color:#eb6383;
 }
